@@ -20,6 +20,7 @@ dependencies {
     testImplementation 'com.github.javafaker:javafaker:1.0.2'
     testImplementation 'mysql:mysql-connector-java:8.0.32'
     implementation group: 'commons-dbutils', name: 'commons-dbutils', version: '1.7'
+    testImplementation 'commons-dbutils:commons-dbutils:1.7'
 }
 
 test {
